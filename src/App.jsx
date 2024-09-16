@@ -57,9 +57,9 @@ const App = () => {
 
       {bayerData && (
         <div>
-          <h2>Bayer Data</h2>
+          <h2>Bayer Data!</h2>
           <pre>{JSON.stringify(bayerData, null, 2)}</pre>
-        </div>
+        </div> 
       )}
     </div>
   );
